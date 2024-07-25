@@ -16,7 +16,7 @@ const Sidebar = ({ links, activeLink }) => {
           key={index}
           href={link.href}
           active={link.text === activeLink}
-          style={{ color: "black" }}
+          style={{ color: "white" }}
         >
           {link.text}
         </Nav.Link>
